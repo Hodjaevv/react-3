@@ -1,0 +1,94 @@
+.main {
+  width: 1122px;
+  height: 942px;
+  border: 2px solid #c8c8ca;
+  border-radius: 8px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+  }
+  &__top h3 {
+    color: var(--grayscale-black, #252733);
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+  &__iconBox {
+    display: flex;
+  }
+  &__iconBox span {
+    margin-right: 8px;
+  }
+  &__iconBox h4 {
+    color: var(--grayscale-gray-dark, #4b506d);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+  }
+  &__h4 {
+    margin-right: 32px;
+  }
+  // == main middle ==
+  &__middle {
+    display: flex;
+    padding: 12px 32px;
+    gap: 40px;
+    border-bottom: 2px solid #c8c8ca;
+  }
+  &__middle h3 {
+    color: var(--grayscale-gray, #9fa2b4);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  &__middle .h3-1 {
+    width: 440px;
+  }
+  &__middle .h3-2 {
+    width: 230px;
+  }
+  &__middle .h3-3 {
+    width: 125px;
+  }
+  &__middle .h3-4 {
+    width: 104px;
+  }
+  &__bottomBox {
+    display: flex;
+    padding: 24px;
+    gap: 60px;
+    border-bottom: 2px solid #c5c7cd;
+    height: 92px;
+  }
+  &__bottomBox h4 {
+    color: var(--grayscale-black, #252733);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+  }
+  &__bottomBox h3 {
+    color: var(--grayscale-gray-light, #c5c7cd);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.1px;
+  }
+  &__bottomBox .ticket {
+    width: 372px;
+  }
+  &__bottomBox .name {
+    width: 208px;
+  }
+  &__boxPriority {
+    height: 32px;
+    color: var(--grayscale-white, #fff);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    background-color: #F12B2C;
+    border-radius: 100px;
+  }
+}

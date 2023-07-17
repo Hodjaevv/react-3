@@ -1,0 +1,42 @@
+.navbar {
+  width: 1122px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 58px;
+  &__h2 {
+    color: var(--grayscale-black, #252733);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+  &__BOX {
+    display: flex;
+  }
+  &__iconsBox {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #c8c8ca;
+  }
+  &__iconsBox span {
+    margin-right: 24px;
+  }
+  &__userBox {
+    display: flex;
+    align-items: center;
+  }
+  &__userBox h4 {
+    color: var(--grayscale-black, #252733);
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    margin: 0 14px 0 32px;
+  }
+  &__userBoxRadius {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #c8c8ca;
+  }
+  &__userBoxRadius img{
+    border-radius: 50%;
+  }
+}
